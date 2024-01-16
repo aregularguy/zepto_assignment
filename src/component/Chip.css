@@ -1,0 +1,45 @@
+/* Chip.css */
+.chip-container {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 8px;
+    margin: 2px;
+    border: 1px solid #ddd;
+  }
+  
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chip {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chip span {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
