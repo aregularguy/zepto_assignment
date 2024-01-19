@@ -22,6 +22,7 @@ const Chip = ({ items, onRemove }) => {
 
   return (
     <div className="chip-container">
+    <h1> Zepto Assignment</h1>
       <input
         type="text"
         value={inputValue}
